@@ -2,7 +2,7 @@ package trie
 
 import "github.com/joeshaw/gengen/generic"
 
-// A Trie is similar to a Map, but mapTrieost operations are O(log n), and it allows for finding similar elements.
+// A Trie is similar to a Map, but most Trie operations are O(log n), and it allows for finding similar elements.
 type Trie interface {
 	Add(string, generic.T) error
 	Get(string) (generic.T, bool)
