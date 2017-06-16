@@ -1,6 +1,6 @@
 package trie
 
-// A Trie is similar to a Map, but mapTrieost operations are O(log n), and it allows for finding similar elements.
+// A Trie is similar to a Map, but most Trie operations are O(log n), and it allows for finding similar elements.
 type Trie interface {
 	Add(string, interface{}) error
 	Get(string) (interface{}, bool)
